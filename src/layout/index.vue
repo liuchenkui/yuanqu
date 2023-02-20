@@ -266,9 +266,10 @@ export default {
   position: relative;
   height: calc(100vh - 62px);
   z-index: 1;
+  overflow-x: auto;
 
   .toggle-menu {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     left: 20px;
   }
